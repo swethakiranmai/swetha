@@ -1,0 +1,137 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family:verdana,sans-serif;
+	
+}
+body{
+	background-color:#80bfff;
+	text-align:center;
+	justify-content:center;
+}
+header{
+	display:flex;
+	height:100px;
+	width:100%;
+	padding:10px;
+}
+h1{
+	font-color:green;
+	font-size:50px;
+	padding:15px;
+}
+.maindiv{
+	width:80%;
+	height:500px;
+	position:absolute;
+	left:50%;
+	top:45%;
+	transform:translate(-50%,-50%);
+	background-image:url('https://static.toiimg.com/photo/58490365.cms');
+	background-size:100% 100%;
+	box-shadow:1px 2px 10px 5px;
+	animation:slider 10s infinite linear;
+}
+
+@keyframes slider{
+0%{background-image:url('https://static.toiimg.com/photo/58490365.cms');}	
+20%{background-image:url('https://images.assettype.com/fortuneindia%2F2021-03%2Ffc99d157-893b-4c5f-8d8a-f23cc395ff10%2FF8EAH5__1_.jpg?w=1250&q=60');}
+40%{background-image:url('https://assets.traveltriangle.com/blog/wp-content/uploads/2015/12/periyar-wildlife-sanctuary.jpg');}
+60%{background-image:url('https://www.billiontrips.com/sites/default/files/2020-04/poovar-13.jpg');}
+80%{background-image:url('https://qph.cf2.quoracdn.net/main-qimg-655860c9c2aa5f1ec468ef947cb732c5-lq');}
+}
+ul{
+	list-style-type:none;
+	text-align:center;
+	font-size:20px;
+	position:absolute;
+	width:1000px;
+	height:100px;
+	top:12px;
+	left:300px;
+	
+}
+li{
+	display:inline-block;
+	margin:20px;
+	padding:15px 20px;
+	text-align:center;
+	
+}
+li a:hover{
+	background-color:gray;
+	color:white;
+}
+
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	margin:0px auto;
+	justify-content:center;
+}
+.card{
+	background-color:white;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	width:25%;
+	border-radius:5px;
+	padding:15px;
+	margin:20px;
+	position:relative;
+	top:600px;
+
+}
+
+
+img{
+	border-radius:10px;
+}
+
+
+.info{
+	background-color:blue;
+	color:white;
+	padding:0px 20px 10px;
+	border-radius:5px;
+	margin-top:10px;
+}
+.info:hover{
+	background-color:green;
+	color:#008CBA;
+}
+.s1{
+	top:600px;
+	position:relative;
+
+
+.container1{
+	display:flex;
+	justify-content:center;
+	
+}
+.card1{
+	background-color:white;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	width:25%;
+	border-radius:5px;
+	padding:16px;
+	margin:20px;
+	position:relative;
+	justify-content:center;
+	
+}
+
+.s2{
+	width:50%;
+	height:400px;
+	border-radius:10px;
+	box-shadow:2px 5px 10px;
+	top:100px;
+	left:25%;
+	position:relative;
+	background-color:#f2f2f2;
+	padding:40px;
+	justify-content:center;	
+}
+
+
